@@ -1,0 +1,98 @@
+/* RESET */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+/* CODE */
+
+* {
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+  width: 500px;
+  height: 500px;
+}
+h1 {
+  font-size: 3rem;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #a5a5a5;
+  border-radius: 25px;
+}
+.color-picker p {
+  color: #222;
+  font-size: 2rem;
+  text-align: center;
+}
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+input[type='color'] {
+  width: 70px;
+  height: 40px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  border: 2px solid #a3a3a3;
+  transition: 0.25s ease;
+}
