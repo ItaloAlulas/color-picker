@@ -13,11 +13,6 @@
 Seletor de cores que fornece o código hexadecimal da cor escolhida.
 
 ---
-## 🕹️ **Demonstração**
-
-👉 [Clique aqui](https://italoalulas.github.io/color-picker/)
-
----
 ## ⚙️ **Funcionalidades**
 
 - 🎨 Fornece o código hexadecimal de qualquer cor escolhida pelo usuário (ex: Branco = #FFFFFF)
